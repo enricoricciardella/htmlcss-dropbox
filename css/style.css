@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0 auto;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    
+    /* DEBUG */
+    /* background-color: rgb(161, 198, 198); */
+    border: 2px solid black;
+}
+
+.header{
+
+    /* DEBUG */
+/* border: 2px solid blue; */
+    background-color: antiquewhite;
+}
+
+/* PRIMA SEZIONE SFONDO AZZURRO */
+
+.section-one{
+    width: 100%;
+    height: 400px;
+    /* DEBUG */
+    border: 1px solid black;
+    background-color: #B4D0E6;
+
+}
+
+/* Creo container grande */
+.main-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    /* DEBUG */
+    border: 1px solid black;
+    background-color: blue;
+}
+.main-container .text-square{
+    width: 30%;
+height: 100%;
+
+    /* DEBUG */
+    border: 1px solid white;
+    background-color: bisque;
+}
+.main-container .photo-square{
+    
+    width: 70%;
+    height: 100%;
+    /* DEBUG */
+    border: 1px solid black;
+    background-color: blueviolet;
+}
